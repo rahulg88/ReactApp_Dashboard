@@ -1,0 +1,110 @@
+body {
+  font-family: Arial, sans-serif;
+}
+
+.alert-card {
+  width: 300px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  padding: 10px;
+  margin: 20px auto;
+  background-color: #f9f9f9;
+}
+
+.random-image {
+  width: 100%;
+  height: auto;
+  border-radius: 5px;
+  margin-bottom: 10px;
+}
+
+.alert-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 10px;
+}
+
+.alert-title {
+  font-size: 1.2em;
+  font-weight: bold;
+}
+
+.alert-time {
+  font-size: 0.9em;
+  color: gray;
+}
+
+.alert-details {
+  margin-bottom: 10px;
+}
+
+.alert-details div {
+  margin-bottom: 4px;
+}
+
+.alert-status {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 10px;
+}
+
+.status {
+  padding: 5px 10px;
+  border-radius: 3px;
+  font-weight: bold;
+}
+
+.status.high {
+  background-color: red;
+  color: white;
+}
+
+.status.resolved {
+  background-color: green;
+  color: white;
+}
+
+.status.dismissed {
+  background-color: gray;
+  color: white;
+}
+
+.buttons button {
+  padding: 5px 10px;
+  border: none;
+  border-radius: 3px;
+  cursor: pointer;
+  margin-left: 5px;
+}
+
+.resolve {
+  background-color: green;
+  color: white;
+}
+
+.dismiss {
+  background-color: red;
+  color: white;
+}
+
+.remark-section {
+  display: flex;
+  align-items: center;
+}
+
+.remark-section input {
+  flex: 1;
+  padding: 5px;
+  margin-right: 5px;
+}
+
+.remark-button {
+  padding: 5px 10px;
+  background-color: #007bff;
+  color: white;
+  border: none;
+  border-radius: 3px;
+  cursor: pointer;
+}

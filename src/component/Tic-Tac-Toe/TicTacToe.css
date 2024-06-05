@@ -1,0 +1,17 @@
+.Grid-container {
+
+    width: 40vw;
+    display: grid;
+    border: 1px solid black;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr;
+}
+
+.grid-item {
+    align-items: center;
+    text-align: center;
+    height: 10vh;
+    border: 1px solid black;
+    text-align: center;
+    padding: 10px;
+}

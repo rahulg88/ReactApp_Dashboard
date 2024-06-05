@@ -1,0 +1,40 @@
+/* * {
+    padding: 0%;
+    margin: 0;
+    box-sizing: border-box;
+    background-color: rgb(170, 165, 174);
+
+}
+
+.bodycontent {
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.h1style {
+    height: 60px;
+    width: 600px;
+    background-color: rgb(191, 124, 124);
+
+
+}
+
+.btn {
+    height: 40px;
+    width: 100px;
+    background-color: rgb(191, 124, 124);
+}
+
+.textlist {
+    height: 5vh;
+    width: 15vw;
+    background-color: azure;
+    border-radius: 20px;
+    text-align: center;
+    padding: 10px;
+    margin: 10px;
+} */
